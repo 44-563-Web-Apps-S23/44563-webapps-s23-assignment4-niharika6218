@@ -11,17 +11,46 @@
 }
 .direction:hover {
     background-color: blueviolet;
-    color: bisque;
 }
 .MRQUIRKE{
     color: cadetblue;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px lightpink, 0 0 5px pink;
 }
-.MISSJOYCE{
+.MISSJ{
     color: coral;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.MISSJ:hover{
+    background-color: rgba(85, 20, 20, 0.314);
 }
 .HYACINTH{
     color: cornflowerblue;
+    border-style: groove;
+}
+.HYACINTH:hover{
+    background-color: lightgreen;
 }
 .MRSDELANE{
     color: chocolate;
+}
+
+
+table.table
+{
+    color:darkmagenta;
+    text-align: center;
+    padding: 60px;
+    margin:20px;
+}
+table, th, td {
+    border: 2px dotted;
+  }
+tr{
+    text-align: center;
+}
+tr:nth-child(odd)
+{
+    
+    background-color: rgb(229, 151, 223);
 }
